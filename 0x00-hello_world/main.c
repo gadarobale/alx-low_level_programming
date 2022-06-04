@@ -3,7 +3,7 @@
 /**
   * main - Etry point
   * 
-  * Return: Always 0 (Success0
+  * Return: Always 0 (Success)
   */
 int main(void)
 {
