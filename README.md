@@ -1,1 +1,1 @@
-it is my first c programming
+hello it is c programming exercises
