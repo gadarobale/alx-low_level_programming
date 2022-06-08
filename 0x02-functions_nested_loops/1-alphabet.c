@@ -3,7 +3,7 @@
  * print_alphabet - display 'a-z'
  * Return: Always 0.
  */
-voi print_alphabet(void)
+void print_alphabet(void)
 {
 	char ch;
 
@@ -11,5 +11,5 @@ voi print_alphabet(void)
 	{
 		_putchar(ch);
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
