@@ -1,14 +1,15 @@
 #include "main.h"
 /*
- * main - display 'a-z'
+ * print_alphabet - display 'a-z'
  * Return: Always 0.
  */
-int main(void)
+voi print_alphabet(void)
 {
 	char ch;
+
 	for(ch= 'a'; ch <='z'; ch++)
 	{
-		putchar(ch);
+		_putchar(ch);
 	}
-	return (0);
+	_putchar('\n')
 }
