@@ -9,6 +9,6 @@
 int _abc(int n)
 {
 	if (n < 0)
-		n = -n;
+	n = -n;
 	return (n);
 }
