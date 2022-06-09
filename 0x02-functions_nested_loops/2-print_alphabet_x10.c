@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * print_alphabet:  - display 'a-z'.
+ * print_alphabet_x10:  - display 'a-z'.
  * Return: Always 0.
  */
 void print_alphabet_x10(void)
