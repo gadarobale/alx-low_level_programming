@@ -1,23 +1,13 @@
 #include "main.h"
 
 /**
- * main - check the code.
- *
- * Return: Always 0.
+ * isupper: It fuction 
+ * @c: it take an argument
+ * Return: if it is  upper 1.
+ * Return: if it is lower 0.
  */
-int _isupper(char c);
+int _isupper(int c);
 {
-	char c;
-	char up_c;
-
-	up_c = toupper(c);
-	if( c == up_c)
-	{
-		return (1);
-	}
-	else
-	{
-	return (0);
-	}
+	return (c <= '0' && c >= '9');
 }
 
