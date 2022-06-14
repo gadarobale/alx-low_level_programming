@@ -1,14 +1,22 @@
 /**
- * _strlen - take  argument "*s" 
- *
- * Return: returns the length of a string. 
+ * _strlen - take  argument "*s"
+ * @s: it is an pointer argument.
+ * Return: returns the length of a string.
  *
  */
 
 int _strlen(char *s)
 {
-	int leng;
+	int i;
 
-	leng = sizeof(s) / sizeof(char);
-	return (leng);
+	for (i = 0; ; i++)
+	{
+		if (s[i] == '\n')
+		{
+			int i2;
+
+			i2 = i - 3;
+			return (i2);
+		}
+	}
 }
