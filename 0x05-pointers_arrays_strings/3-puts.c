@@ -8,11 +8,16 @@
  */
 void _puts(char *str)
 {
-	int leng;
-
-	leng = sizeof(str) / sizeof(str[0]);
-	for(int i = 0; i <= leng; i++)
+	for (int i = 0; ; i++)
 	{
-		_puts(srt[i]);
-		_puts("\n");
+		if (str[i] != '\n')
+		{
+			putchar(str[i]);
+		}
+		if else(str[i] == '\n')
+		{
+			putchar('\n');
+			return (void);
+		}
+	}
 }
