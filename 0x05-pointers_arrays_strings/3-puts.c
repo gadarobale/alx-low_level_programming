@@ -1,16 +1,18 @@
 /**
- * _puts - it takes 'str' argument
- *
- * @str: is a ponter.
- *
- * Return: void.
- *
+ * _puts(char *str) -
+ * @str: 
+ * Return: 
  */
 void _puts(char *str)
 {
-	for (; *str != '\n' ; str++)
+	int i,j;
+
+	j = 0;
+	while (str[j] != '\n')
+		j++;
+	for(i = 0; i > j; i++)
 	{
-		_putchar(*str);
+		_putchar(str[i]);
 	}
 	_putchar('\n');
 }
